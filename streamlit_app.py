@@ -21,7 +21,7 @@ def main():
 
 # Function to make a POST request to the FastAPI endpoint
 def assess_risk(income, expenses):
-    url = "http://localhost:8000/assess_risk/"  # Replace with your FastAPI server address
+    url = "http://localhost:8000/assess_risk/"  
     data = {"income": income, "expenses": expenses}
 
     try:
