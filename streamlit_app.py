@@ -12,7 +12,7 @@ def main():
     expenses = st.number_input("Expenses", min_value=0.0)
 
     if st.button("Assess Risk"):
-        # Make a request to your FastAPI endpoint
+        # Make a request to the FastAPI endpoint
         response = assess_risk(income, expenses)
         print(response)
         # Display the risk assessment result
