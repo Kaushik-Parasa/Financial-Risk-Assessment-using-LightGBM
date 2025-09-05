@@ -29,4 +29,4 @@ accuracy = accuracy_score(y_test, y_pred)
 print(f'Model Accuracy: {accuracy}')
 
 # Save the trained model for later use in the FastAPI application
-joblib.dump(model, 'models/risk_assessment_model.joblib')
+joblib.dump(model, 'models/risk_assessment_model1.joblib')

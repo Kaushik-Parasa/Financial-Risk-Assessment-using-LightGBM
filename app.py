@@ -5,7 +5,7 @@ import joblib
 app = FastAPI()
 
 # Load the trained risk assessment model
-model = joblib.load('./models/risk_assessment_model_xgb.joblib')
+model = joblib.load('./models/risk_assessment_model_xgb1.joblib')
 
 # Define a request model to receive user data
 class FinancialData(BaseModel):
